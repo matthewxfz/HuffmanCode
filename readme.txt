@@ -1,7 +1,13 @@
 @author Fangzhou Xiong
 @time 02/12/2016
-This is the layout of the file intern:
 
+
+Usage:
+
+java -jar Huffman.jar encode "[encoding text]" <path/output file name> 
+java -jar Huffman.jar decode <path/output file name>
+
+This is the layout of the file intern:
 |
 |____Huffman
 | |____bin
@@ -35,16 +41,6 @@ This is the layout of the file intern:
 |____readme.txt
 
 An already compiled jar file in the ./Huffman.jar
-
-########################
-USAGE
-#######################
-
-Usage:
-
-java -jar Huffman.jar encode "[encoding text]" <path/output file name> 
-java -jar Huffman.jar decode <path/output file name>
-
 ———————————————
 
 ###########################
