@@ -7,17 +7,24 @@ Usage:
 java -jar Huffman.jar encode "[encoding text]" <path/output file name> 
 java -jar Huffman.jar decode <path/output file name>
 
-format of the output file:
-$ cat output.txt
-    010
-  e 1010
-  g 011
-  i 100
-  m 1011
-  n 00
-  s 11
-  **
-  1011101000010111000001111010111000110011
+Format of the output file:
+<Table of Code to each charactor>
+**
+<Code>
+
+I.E
+
+$ cat ./output 
+l 10
+o 110
+r 1110
+d 1111
+h 000
+e 001
+  010
+w 011
+**
+00000110101100100111101110101111
 
 This is the layout of the file intern:
 |
